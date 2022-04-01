@@ -5,7 +5,7 @@
 class Ex1_03_2 {
 	public static void main (String[] args) {
 		
-		System.out.qrintln("Hello World!! Error is cleared!!" )
+		System.out.println("Hello World!! Error is cleared!!");
 		
 	}
 }
