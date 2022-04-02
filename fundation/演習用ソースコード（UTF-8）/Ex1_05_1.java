@@ -11,17 +11,15 @@
 --------------------------------------------------------------------------------------*/
 class Ex1_05_1 {
 	public static void main (String[] args) {
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+//		① IT業界の生涯賃金（調べてください）
+		int lifetimeWageForItIndustry = 276000000;
+//  ② IT業界の市場規模（調べてください）
+		long marketSizeForItIndustry = 13640000000000L;
+//  ③ 自分の好きな漢字1文字 ※char型を使いましょう
+		char myFavoriteKanji = '六';
+//  ④ 自分のなりたい職業
+		String myIdealJob = "エンジニア";
+//  ⑤ 自分が既卒かどうか ※boolean型を使いましょう
+		boolean isGraduated = true;
 	}
 }
