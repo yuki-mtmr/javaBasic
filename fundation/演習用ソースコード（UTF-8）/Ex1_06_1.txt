@@ -1,0 +1,35 @@
+＜演習：Ex1_06_1＞
+
+以下、 ①～⑤でそれぞれどのようなデータが画面に表示されるでしょう？
+
+　①　int answer1 =  3 + ( 7 % 4 ) / 2  ;
+　　　System.out.println( answer1 );
+　　★答え★
+　　　4
+
+　②　int calc2 =  10  ;
+　　　int answer2 = ++calc2 ;
+　　　System.out.println( calc2 );
+　　　System.out.println( answer2 );
+　　★答え★
+　　　11
+　　　11
+　③　int calc3 =  10  ;
+　　　int answer3 = calc3++ ;
+　　　System.out.println( calc3 );
+　　　System.out.println( answer3 );
+　　★答え★
+　　　11
+　　　10
+
+　④　int calc4 =  10  ;
+　　　int answer4 = calc4 + 1;
+　　　System.out.println( calc4 );
+　　　System.out.println( answer4 );
+　　★答え★
+　　　10
+　　　11
+
+　⑤　System.out.println( “1” + “6” );
+　　★答え★
+　　　16
