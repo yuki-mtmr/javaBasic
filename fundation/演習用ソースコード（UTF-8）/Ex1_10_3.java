@@ -15,8 +15,17 @@
 ----------------------------------------------------*/
 class Ex1_10_3 {
 	public static void main (String[] args) {
-		
-		
+		String[] ans = new String[10];
+		for (int i = 0; i <= 9; i++) {
+			for (int j = 0; j <= 9; j++) {
+				if (j == 0){
+					ans[i] = String.valueOf(i) + String.valueOf(j);
+				}else {
+					ans[i] = ans[i] + " " + String.valueOf(i) + String.valueOf(j);
+				}
+			}
+			System.out.println(ans[i]);
+		}
 		
 		
 		

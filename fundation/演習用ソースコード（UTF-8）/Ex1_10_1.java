@@ -7,7 +7,7 @@ class Ex1_10_1 {
 	public static void main (String[] args) {
 		
 		//コマンドライン引数で好きな数字を1つ受け取る
-		int receiveNumber = ________ ;    //(10行目)アンダーバーに適切な処理を埋めてください
+		int receiveNumber = Integer.parseInt(args[0]) ;    //(10行目)アンダーバーに適切な処理を埋めてください
 		
 		//最終的に表示するString型変数（初期値：""（0文字の文字列））
 		String display = "";              //(13行目)変更しないでください
@@ -17,7 +17,9 @@ class Ex1_10_1 {
 		**displayに格納する処理を書いてください。
 		**※必ずfor文を使用してください。
 		*/
-		
+		for (int i = 0; i < receiveNumber; i++) {
+			display = display + "＊";
+		}
 		
 		
 		
