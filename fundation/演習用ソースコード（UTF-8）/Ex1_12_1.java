@@ -16,7 +16,7 @@ class Ex1_12_1 {
 	public static void main (String[] args) {
 
 		//コマンドライン引数で好きな数字を1つ受け取る
-		int score = Integer.parseInt(args[0]) ;
+		int score = Integer.parseInt(args[0]);
 
 		if (score < 0 || score > 100) {
 			System.out.println("「不正な点数です！」");
