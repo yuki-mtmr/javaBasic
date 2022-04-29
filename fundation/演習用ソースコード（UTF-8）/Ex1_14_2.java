@@ -32,9 +32,8 @@ public class Ex1_14_2 {
 	**  - 引数として受け取った値の税込価格（消費税は8％とする）を計算して返す
 	**  - 税込価格は整数（小数点以下切り捨て）で返す
 	*/
-	static ______ calcTaxPayment( __________________ ){        //アンダーバーを適切な内容に書き換えてください
-		
-		
+	static int calcTaxPayment(int discountedPrice){        //アンダーバーを適切な内容に書き換えてください
+		return (int)(discountedPrice * 1.08);
 	}
 	
 	
@@ -45,8 +44,13 @@ public class Ex1_14_2 {
 	**  - 値引き額は小数点以下切り捨てで計算する（キャストを使いましょう）
 	**  - 割引金額の上限は5000円とする
 	*/
-	static ______ discount( __________________ ){            //アンダーバーを適切な内容に書き換えてください
-		
-		
+	static int discount( int totalPrice){            //アンダーバーを適切な内容に書き換えてください
+		if (totalPrice >= 1000 && totalPrice <= 5000) {
+			return (int)(((totalPrice - 1000) * 0.9) + 1000);
+		} else if (totalPrice >= 5000) {
+			return (int)(((totalPrice - 5000) * 0.8) + ((totalPrice - (totalPrice - 5000) - 1000) * 0.9) + 1000);
+		} else {
+			return totalPrice;
+		}
 	}
 }
