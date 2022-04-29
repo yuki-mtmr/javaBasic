@@ -1,6 +1,9 @@
 /*-< 演習：Ex1_15_2 >---------------------------------
 コメントに従って2次元配列からデータを抽出して画面に表示するプログラムを作ってください。
 ----------------------------------------------------*/
+import java.util.List;
+import java.util.ArrayList;
+
 class Ex1_15_2{
 	public static void main (String[] args) {
 		
@@ -31,8 +34,16 @@ class Ex1_15_2{
 		**    ※ヒント：年齢の文字列から「歳」を除去する方法について調べてみよう！
 		**  ③adultFemaleDogsListに格納されているすべてのデータをprintlnで表示する
 		*/
-		
-		
+		List<String> adultFemaleDogsList = new ArrayList<String>();
+		for (int i = 0; dogs.length > i; i++) {
+			if (dogs[i][2].equals("メス") &&  Integer.parseInt(dogs[i][1].replaceAll("[^0-9]", "")) >= 4) {
+				adultFemaleDogsList.add(dogs[i][0]);
+			}
+		}
+
+		for (String dog: adultFemaleDogsList) {
+			System.out.println(dog);
+		}
 	}
 }
 
