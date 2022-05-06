@@ -1,4 +1,4 @@
-class Ex2_01_1_Janken {
+class Ex2_02_1_Janken {
     public static void main (String[] args) {
 
         //定数

@@ -1,6 +1,4 @@
-class Ex2_01_1_Player {
-    public static void main (String[] args) {
-
+class Ex2_02_1_Player {
         //定数
         final String HAND_G = "グー";
         final String HAND_C = "チョキ";
@@ -11,7 +9,7 @@ class Ex2_01_1_Player {
         String handStatus;
 
         //コンストラクタ
-        Ex2_01_1_Player(String name) {
+        Ex2_02_1_Player(String name) {
             this.name = name;
         }
 
@@ -31,5 +29,4 @@ class Ex2_01_1_Player {
                     break;
             }
         }
-    }
 }
