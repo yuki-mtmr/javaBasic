@@ -1,4 +1,4 @@
-class Ex2_02_1_Player {
+class Ex2_02_2_Human {
         //定数
         final String HAND_G = "グー";
         final String HAND_C = "チョキ";
@@ -9,7 +9,7 @@ class Ex2_02_1_Player {
         String handStatus;
 
         //コンストラクタ
-        Ex2_02_1_Player(String name) {
+        Ex2_02_2_Human(String name) {
             this.name = name;
         }
 
