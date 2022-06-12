@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef79ea6-791c-4c26-8c06-e75720ee34d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BattleWild.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fushigiyade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hitokake.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monster1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monster2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monster3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimulateMonsterBattle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/churimon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/churimon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +49,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,6 +77,8 @@
       <workItem from="1654414404588" duration="314000" />
       <workItem from="1654414736867" duration="21000" />
       <workItem from="1654414769610" duration="117000" />
+      <workItem from="1654414954701" duration="295000" />
+      <workItem from="1654415310486" duration="572000" />
     </task>
     <servers />
   </component>
@@ -84,5 +96,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="219" y="25" key="SettingsEditor" timestamp="1654415761978">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="219" y="25" key="SettingsEditor/0.25.1440.805@0.25.1440.805" timestamp="1654415761978" />
   </component>
 </project>
